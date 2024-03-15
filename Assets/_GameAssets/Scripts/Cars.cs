@@ -14,6 +14,6 @@ public class Cars : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(0, 0, -velocidad * Time.deltaTime));
+        transform.Translate(new Vector3(0, 0, velocidad * Time.deltaTime));
     }
 }

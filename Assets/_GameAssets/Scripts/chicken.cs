@@ -2,7 +2,6 @@ using UnityEngine;
 
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class chicken : MonoBehaviour
 {
@@ -20,7 +19,7 @@ public class chicken : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonUp("fire1")){
+        if (Input.GetButtonUp("Fire1")){
 
             rb.AddForce(new Vector3(0, fuerza, 0));
 
